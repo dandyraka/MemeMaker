@@ -1,8 +1,8 @@
 <?php
 function meme($atas, $bawah, $gambar)
 	{
-	  $headerText = str_replace(' ','-',$atas);
-    $footerText = str_replace(' ','-',$bawah);
+	  	$headerText = str_replace(' ','-',$atas);
+    		$footerText = str_replace(' ','-',$bawah);
 		$ch = curl_init();
 		curl_setopt($ch, CURLOPT_HEADER, 0);
 		curl_setopt($ch, CURLOPT_VERBOSE, 1);
